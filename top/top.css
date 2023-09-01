@@ -1,1 +1,5 @@
 /*topだけで使うcss*/
+.header {
+    position: relative;
+    background-color: aqua;
+}
