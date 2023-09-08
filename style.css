@@ -21,13 +21,13 @@ body {
     padding-top: 5px;
     box-sizing: border-box;
 }
-ul {
+.nav-list ul {
     display: flex;
 }
-li {
+.nav-list li {
     list-style: none;
 }
-a {
+.nav-list a {
     display: block;
     text-decoration: none;
     color: bisque;
