@@ -40,9 +40,6 @@ body {
     color: bisque;
     margin-right: 35px;
 }
-.nav-toggle:checked ~ .nav .nav-list {
-    display: block;
-}
 /*メイン*/
 .main {
     max-width: 1000px;
