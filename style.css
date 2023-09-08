@@ -34,11 +34,11 @@ body {
     display: block;
     width: 44px;
     height: 44px;
-    background-color: darkblue;
+    background: url("photo/menubtn.png") center center /35px 20px no-repeat;
     cursor: pointer;
 }
 .nav-toggle:checked ~ .btn-burger {
-    background-color: blue;
+    background: url("photo/menuclose.png") center center /26px 26px no-repeat;
 }
 .nav {
     padding-top: 10px;
