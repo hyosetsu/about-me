@@ -23,9 +23,26 @@ body {
     object-fit: contain;
 }
 /*ナビ*/
+.nav-toggle {
+    display: none;
+}
+.btn-burger {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 2;
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: darkblue;
+    cursor: pointer;
+}
+.nav-toggle:checked ~ .btn-burger {
+    background-color: blue;
+}
 .nav {
     padding-top: 10px;
-    background: url("../photo/nav-obi.jpg") center center / cover no-repeat;
+    background-color: darkblue;
 }
 .nav-list {
     display: none;
