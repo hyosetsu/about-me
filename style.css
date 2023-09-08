@@ -69,11 +69,17 @@ body {
 .main-home {
     text-align: center;
 }
+.home-p {
+    text-align: center;
+}
 .main-setsumei {
     margin-bottom: 10px;
     font-size: 20px;
     text-align: center;
     color: aquamarine;
+}
+.setsumei-p {
+    text-align: center;
 }
 /*フッター*/
 .footer {
