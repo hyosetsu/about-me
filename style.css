@@ -13,6 +13,15 @@ body {
     position: relative;
     background-color: aqua;
 }
+/*画像*/
+.mainimg {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+.sakura {
+    object-fit: contain;
+}
 /*ナビ*/
 .nav-toggle {
     display: none;
