@@ -63,3 +63,13 @@ body {
 .main {
 
 }
+/*フッター*/
+.footer {
+    padding: 40px 0 30px;
+    color: deepskyblue;
+    text-align: center;
+    background-color: darkblue;
+}
+.footer-address {
+    margin: 10px 0;
+}
