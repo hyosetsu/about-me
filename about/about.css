@@ -1,2 +1,7 @@
 /*aboutだけで使うcss*/
 @charset "UTF-8";
+.main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 10px;
+}
