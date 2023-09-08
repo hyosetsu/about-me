@@ -23,24 +23,7 @@ body {
     object-fit: contain;
 }
 /*ナビ*/
-.nav-toggle {
-    display: none;
-}
-.btn-burger {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    z-index: 2;
-    display: block;
-    width: 44px;
-    height: 44px;
-    background: url("photo/menubtn.png") center center /35px 20px no-repeat;
-    cursor: pointer;
-}
-.nav-toggle:checked ~ .btn-burger {
-    background: url("photo/menuclose.png") center center /26px 26px no-repeat;
-}
-.nav {
+.menubar {
     padding-top: 10px;
     background-color: darkblue;
 }
