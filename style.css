@@ -61,7 +61,18 @@ body {
 }
 /*メイン*/
 .main {
-
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 10px;
+}
+.main-home {
+    text-align: center;
+}
+.main-setsumei {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: aquamarine;
 }
 /*フッター*/
 .footer {
