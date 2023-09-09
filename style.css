@@ -15,8 +15,8 @@ body {
 }
 /*画像*/
 .mainimg {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    height: auto;
     background-color: black;
 }
 .sakura {
