@@ -15,11 +15,13 @@ body {
 }
 /*画像*/
 .mainimg {
-    max-width: 100%;
-    height: auto;
+    width: 100px;
+    height: 100px;
     background-color: black;
 }
 .sakura {
+    max-width: 100%;
+    height: auto;
     object-fit: contain;
 }
 /*ナビ*/
