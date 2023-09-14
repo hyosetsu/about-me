@@ -42,6 +42,9 @@ body {
 .nav-toggle:checked ~ .btn-burger {
     background: url("photo/menuclose.png") center center /26px 26px no-repeat;
 }
+.btn-burger {
+    display: none;
+}
 .menubar {
     padding: 40px 0;
 }
