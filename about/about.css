@@ -5,3 +5,11 @@
     margin: 50px auto;
     padding: 0 10px;
 }
+main.mei {
+    float: left;
+    width: 50%;
+}
+main.reki {
+    float: left;
+    width: 50%;
+}
