@@ -1,5 +1,26 @@
 @charset "UTF-8";
 /*スライドショー*/
+.center-slide {
+    width: 100%;
+    margin: 50% auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.slideshow {
+    display: flex;
+    animation: slide-flow 20s infinite linear 1s both;
+}
+.gazo1, .gazo2, .gazo3, .gazo4, .gazo5, .gazo6 {
+    width: 300px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+}
+@keyframes slide-flow {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-100%);}
+}
+
 .gamea {
     float: left;
     width: 50%;
