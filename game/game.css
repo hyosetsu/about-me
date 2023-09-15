@@ -21,7 +21,7 @@
     100% {transform: translateX(-100%);}
 }
 
-.gamea {
-    float: left;
+.gameb {
+    float: right;
     width: 50%;
 }
