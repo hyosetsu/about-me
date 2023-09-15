@@ -13,7 +13,6 @@
 }
 .gazo1, .gazo2, .gazo3, .gazo4, .gazo5, .gazo6 {
     width: 300px;
-    height: 60vw;
     object-fit: contain;
     border: 1px solid #ddd;
 }
