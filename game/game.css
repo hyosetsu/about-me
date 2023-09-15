@@ -1,61 +1,14 @@
 @charset "UTF-8";
-/*スライドショー*/
-.center-slide {
-    position: relative;
-    width: 70%;
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
+/*画像*/
+.mainimg {
+    width: 100px;
+    height: 100px;
+    background-color: black;
 }
-@media screen and (max-width: 767px) {
-    .center-slide {
-        width: 100%;
-        height: 200px;
-    }
-}
-.gazo1, .gazo2, .gazo3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.gazo {
+    max-width: 100%;
+    height: auto;
     object-fit: contain;
-}
-.gazo1 {
-    background-image: url('アイナナ');
-    animation: slide-animation-01 24s infinite;
-}
-.gazo2 {
-    background-image: url('ダンメモ');
-    animation: slide-animation-02 24s infinite;
-}
-.gazo3 {
-    background-image: url('原神3');
-    animation: slide-animation-073 24s infinite;
-}
-@keyframes slide-animation-01 {
-    0% {opacity: 1; transform: scale(1.0);}
-    30% {opacity: 1;}
-    40% {opacity: 0; transform: scale(1.15);}
-    90% {opacity: 0}
-    100% {opacity: 1; transform: scale(1.0);}
-}
-@keyframes slide-animation-02 {
-    0% {opacity: 0;}
-    30% {opacity: 0; transform: scale(1.1);}
-    40% {opacity: 1;}
-    60% {opacity: 1;}
-    70% {opacity: 0; transform: scale(1.0);}
-    100% {opacity: 0;}
-}
-@keyframes slide-animation-03 {
-    0% {opacity: 0;}
-    60% {opacity: 0; transform: scale(1.0);}
-    70% {opacity: 1;}
-    90% {opacity: 1;}
-    100% {opacity: 0; transform: scale(1.1);}
 }
 
 

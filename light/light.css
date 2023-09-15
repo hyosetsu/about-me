@@ -1,2 +1,13 @@
 /*lightだけで使うcss*/
 @charset "UTF-8";
+/*画像*/
+.mainimg {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.gazo {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
